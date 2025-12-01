@@ -36,9 +36,3 @@ pipeline {
 }
 
 }
-post {
-        always {
-            echo "Build completed."
-        }
-    }
-}
