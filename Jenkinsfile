@@ -1,5 +1,5 @@
 pipeline {
-	agent any {
+	agent any 
 		environment {
 			APP_NAME = "my-java-app"
 			}
@@ -31,4 +31,4 @@ post {
         always {
             echo "Build completed."
         }
-    }}
+    }
