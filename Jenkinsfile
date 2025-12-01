@@ -34,7 +34,7 @@ pipeline {
 				echo "container built"}
 			}
 
-}
+}}
 }
 post {
         always {
