@@ -27,6 +27,14 @@ pipeline {
 }
 }
 }
+		stage('creating container'){
+
+			steps {
+				sh 'docker run -d -p 9919:9919 --name demo10container demo10image'
+				echo "container built"}
+			}
+
+}
 }
 post {
         always {
