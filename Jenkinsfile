@@ -22,7 +22,7 @@ pipeline {
 		stage('Build Docker Image') {
             steps {
                 script {
-                    def image = steps.docker.build("my-java-app")
+                    def image = docker image build -t demo10image .
                     echo "Docker image built successfully"
 }
 }
