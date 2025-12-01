@@ -41,4 +41,3 @@ post {
             echo "Build completed."
         }
     }
-}
